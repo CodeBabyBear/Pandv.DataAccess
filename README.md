@@ -13,6 +13,10 @@ DataAccess base on ado.net, so you can use blow db :
 
 * [Pandv.DataAccess](https://www.nuget.org/packages/Pandv.DataAccess)
 
+## doc
+
+https://fs7744.github.io/Pandv.DataAccess/
+
 ### use MSSql example 
 
 #### Use config file

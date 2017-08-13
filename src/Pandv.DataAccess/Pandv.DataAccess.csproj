@@ -2,6 +2,24 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>0.0.1</Version>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
+    <Company>Victor.X.Qu</Company>
+    <Authors />
+    <Copyright>Copyright @2017 Victor.X.Qu</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/fs7744/Pandv.DataAccess/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/fs7744/Pandv.DataAccess</PackageProjectUrl>
+    <Description>sql config in xml files base dapper</Description>
+    <PackageReleaseNotes>sql config in xml files base dapper</PackageReleaseNotes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="VIC.ObjectConfig" Version="2.0.0-beta" />
+  </ItemGroup>
 
 </Project>

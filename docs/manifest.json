@@ -1,0 +1,206 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/code/dotnetcore/Pandv.DataAccess",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "qPrEtwzPK5pJOGlxzhtrwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pandv.DataAccess.BulkCopyDataReader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pandv.DataAccess.BulkCopyDataReader-1.html",
+          "hash": "3IqX3G6fgNAQDA+eunlhEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pandv.DataAccess.ConfigExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pandv.DataAccess.ConfigExtensions.html",
+          "hash": "AY2alLHT3+O1h8vsCRBTsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pandv.DataAccess.DataConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pandv.DataAccess.DataConnection.html",
+          "hash": "9oFq58DxNeTBQDhgR/0cJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pandv.DataAccess.DbConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pandv.DataAccess.DbConfig.html",
+          "hash": "0X7HFohQBM7MgLoOC3jZIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pandv.DataAccess.DbProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pandv.DataAccess.DbProvider.html",
+          "hash": "Bg6/NzzO78zscXY5LL9ilQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pandv.DataAccess.DbSql.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pandv.DataAccess.DbSql.html",
+          "hash": "Lit5sPYauaIFXVSTdrkFDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pandv.DataAccess.IDbProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pandv.DataAccess.IDbProvider.html",
+          "hash": "O1syxlh+48pV+ka6/7BX4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pandv.DataAccess.ListDataReader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pandv.DataAccess.ListDataReader-1.html",
+          "hash": "9ZglXSKA0hVn0EIETS9jAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Pandv.DataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Pandv.DataAccess.html",
+          "hash": "32Rw3M1qbG0ZQY5WYvrDjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "tDa9neBTCKubD5teasj27Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "puu3+Tax8k6FBsWv4dl5gA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "h9YHsXK8U5qFxmupK26xBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "RestApiDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {}
+}

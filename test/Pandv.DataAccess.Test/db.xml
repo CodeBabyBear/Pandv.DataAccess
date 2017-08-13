@@ -1,32 +1,4 @@
-# Pandv.DataAccess
-
-Author: Victor.X.Qu
-
-Email: fs7744@hotmail.com
-
-Pandv.DataAccess is just config sql in xml files, base on dapper
-
-DataAccess is for net core 
-
-## db supports
-DataAccess base on ado.net, so you can use blow db :
-
-* [Pandv.DataAccess](https://www.nuget.org/packages/Pandv.DataAccess)
-
-### use MSSql example 
-
-#### Use config file
-
-##### dependencies
-
-``` xml
-    <PackageReference Include="Pandv.DataAccess" Version="0.0.1" />
-```
-
-You can config sql in xml file for DataAcces, like:
-
-``` xml
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <DbConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ConnectionStrings>
     <DataConnection Name="Test" ConnectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TestDataAccess;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" />
@@ -84,26 +56,3 @@ delete from [dbo].[Students]
     </DbSql>
   </SqlConfigs>
 </DbConfig>
-```
-
-Code for use :
-
-``` csharp
-var provider = new ServiceCollection()
-                     .UseSqlServer()
-                     .UseDataAccessConfig(Directory.GetCurrentDirectory(), false, null, "db.xml")
-                     .BuildServiceProvider();
-
-List<Student> students = GenerateStudents(count);
-
-var db = provider.GetService<IDbProvider>();        
-
-db.ExecuteBulkCopy("BulkCopy",students);
-
-var student = db.QueryFirstOrDefault<Student>("SelectByName", new { Name = new DbString() { Value = "3", IsAnsi = true } });
-Assert.Equal(3, student.Age);
-
-var students = db.Query<Student>("SelectAll").ToList();
-Assert.Equal(500, students.Count);
-
-```

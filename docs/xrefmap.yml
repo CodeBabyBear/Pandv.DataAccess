@@ -1,0 +1,1274 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Pandv.DataAccess
+  name: Pandv.DataAccess
+  href: api/Pandv.DataAccess.html
+  commentId: N:Pandv.DataAccess
+  fullName: Pandv.DataAccess
+  nameWithType: Pandv.DataAccess
+- uid: Pandv.DataAccess.BulkCopyDataReader`1
+  name: BulkCopyDataReader<T>
+  href: api/Pandv.DataAccess.BulkCopyDataReader-1.html
+  commentId: T:Pandv.DataAccess.BulkCopyDataReader`1
+  name.vb: BulkCopyDataReader(Of T)
+  fullName: Pandv.DataAccess.BulkCopyDataReader<T>
+  fullName.vb: Pandv.DataAccess.BulkCopyDataReader(Of T)
+  nameWithType: BulkCopyDataReader<T>
+  nameWithType.vb: BulkCopyDataReader(Of T)
+- uid: Pandv.DataAccess.BulkCopyDataReader`1.#ctor(System.Collections.Generic.List{`0})
+  name: BulkCopyDataReader(List<T>)
+  href: api/Pandv.DataAccess.BulkCopyDataReader-1.html#Pandv_DataAccess_BulkCopyDataReader_1__ctor_System_Collections_Generic_List__0__
+  commentId: M:Pandv.DataAccess.BulkCopyDataReader`1.#ctor(System.Collections.Generic.List{`0})
+  name.vb: BulkCopyDataReader(List(Of T))
+  fullName: Pandv.DataAccess.BulkCopyDataReader<T>.BulkCopyDataReader(System.Collections.Generic.List<T>)
+  fullName.vb: Pandv.DataAccess.BulkCopyDataReader(Of T).BulkCopyDataReader(System.Collections.Generic.List(Of T))
+  nameWithType: BulkCopyDataReader<T>.BulkCopyDataReader(List<T>)
+  nameWithType.vb: BulkCopyDataReader(Of T).BulkCopyDataReader(List(Of T))
+- uid: Pandv.DataAccess.BulkCopyDataReader`1.#ctor*
+  name: BulkCopyDataReader
+  href: api/Pandv.DataAccess.BulkCopyDataReader-1.html#Pandv_DataAccess_BulkCopyDataReader_1__ctor_
+  commentId: Overload:Pandv.DataAccess.BulkCopyDataReader`1.#ctor
+  fullName: Pandv.DataAccess.BulkCopyDataReader<T>.BulkCopyDataReader
+  fullName.vb: Pandv.DataAccess.BulkCopyDataReader(Of T).BulkCopyDataReader
+  nameWithType: BulkCopyDataReader<T>.BulkCopyDataReader
+  nameWithType.vb: BulkCopyDataReader(Of T).BulkCopyDataReader
+- uid: Pandv.DataAccess.BulkCopyDataReader`1.ColumnMappings
+  name: ColumnMappings
+  href: api/Pandv.DataAccess.BulkCopyDataReader-1.html#Pandv_DataAccess_BulkCopyDataReader_1_ColumnMappings
+  commentId: P:Pandv.DataAccess.BulkCopyDataReader`1.ColumnMappings
+  fullName: Pandv.DataAccess.BulkCopyDataReader<T>.ColumnMappings
+  fullName.vb: Pandv.DataAccess.BulkCopyDataReader(Of T).ColumnMappings
+  nameWithType: BulkCopyDataReader<T>.ColumnMappings
+  nameWithType.vb: BulkCopyDataReader(Of T).ColumnMappings
+- uid: Pandv.DataAccess.BulkCopyDataReader`1.ColumnMappings*
+  name: ColumnMappings
+  href: api/Pandv.DataAccess.BulkCopyDataReader-1.html#Pandv_DataAccess_BulkCopyDataReader_1_ColumnMappings_
+  commentId: Overload:Pandv.DataAccess.BulkCopyDataReader`1.ColumnMappings
+  fullName: Pandv.DataAccess.BulkCopyDataReader<T>.ColumnMappings
+  fullName.vb: Pandv.DataAccess.BulkCopyDataReader(Of T).ColumnMappings
+  nameWithType: BulkCopyDataReader<T>.ColumnMappings
+  nameWithType.vb: BulkCopyDataReader(Of T).ColumnMappings
+- uid: Pandv.DataAccess.ConfigExtensions
+  name: ConfigExtensions
+  href: api/Pandv.DataAccess.ConfigExtensions.html
+  commentId: T:Pandv.DataAccess.ConfigExtensions
+  fullName: Pandv.DataAccess.ConfigExtensions
+  nameWithType: ConfigExtensions
+- uid: Pandv.DataAccess.ConfigExtensions.BuildConfig(Task{Pandv.DataAccess.DbConfig}[],Pandv.DataAccess.DbConfig[])
+  name: BuildConfig(Task<DbConfig>[], DbConfig[])
+  href: api/Pandv.DataAccess.ConfigExtensions.html#Pandv_DataAccess_ConfigExtensions_BuildConfig_Task_Pandv_DataAccess_DbConfig____Pandv_DataAccess_DbConfig___
+  commentId: M:Pandv.DataAccess.ConfigExtensions.BuildConfig(Task{Pandv.DataAccess.DbConfig}[],Pandv.DataAccess.DbConfig[])
+  name.vb: BuildConfig(Task(Of DbConfig)(), DbConfig())
+  fullName: Pandv.DataAccess.ConfigExtensions.BuildConfig(Task<Pandv.DataAccess.DbConfig>[], Pandv.DataAccess.DbConfig[])
+  fullName.vb: Pandv.DataAccess.ConfigExtensions.BuildConfig(Task(Of Pandv.DataAccess.DbConfig)(), Pandv.DataAccess.DbConfig())
+  nameWithType: ConfigExtensions.BuildConfig(Task<DbConfig>[], DbConfig[])
+  nameWithType.vb: ConfigExtensions.BuildConfig(Task(Of DbConfig)(), DbConfig())
+- uid: Pandv.DataAccess.ConfigExtensions.BuildConfig*
+  name: BuildConfig
+  href: api/Pandv.DataAccess.ConfigExtensions.html#Pandv_DataAccess_ConfigExtensions_BuildConfig_
+  commentId: Overload:Pandv.DataAccess.ConfigExtensions.BuildConfig
+  fullName: Pandv.DataAccess.ConfigExtensions.BuildConfig
+  nameWithType: ConfigExtensions.BuildConfig
+- uid: Pandv.DataAccess.ConfigExtensions.UseDataAccessConfig(IServiceCollection,System.String,System.Boolean,Pandv.DataAccess.DbConfig[],System.String[])
+  name: UseDataAccessConfig(IServiceCollection, String, Boolean, DbConfig[], String[])
+  href: api/Pandv.DataAccess.ConfigExtensions.html#Pandv_DataAccess_ConfigExtensions_UseDataAccessConfig_IServiceCollection_System_String_System_Boolean_Pandv_DataAccess_DbConfig___System_String___
+  commentId: M:Pandv.DataAccess.ConfigExtensions.UseDataAccessConfig(IServiceCollection,System.String,System.Boolean,Pandv.DataAccess.DbConfig[],System.String[])
+  name.vb: UseDataAccessConfig(IServiceCollection, String, Boolean, DbConfig(), String())
+  fullName: Pandv.DataAccess.ConfigExtensions.UseDataAccessConfig(IServiceCollection, System.String, System.Boolean, Pandv.DataAccess.DbConfig[], System.String[])
+  fullName.vb: Pandv.DataAccess.ConfigExtensions.UseDataAccessConfig(IServiceCollection, System.String, System.Boolean, Pandv.DataAccess.DbConfig(), System.String())
+  nameWithType: ConfigExtensions.UseDataAccessConfig(IServiceCollection, String, Boolean, DbConfig[], String[])
+  nameWithType.vb: ConfigExtensions.UseDataAccessConfig(IServiceCollection, String, Boolean, DbConfig(), String())
+- uid: Pandv.DataAccess.ConfigExtensions.UseDataAccessConfig*
+  name: UseDataAccessConfig
+  href: api/Pandv.DataAccess.ConfigExtensions.html#Pandv_DataAccess_ConfigExtensions_UseDataAccessConfig_
+  commentId: Overload:Pandv.DataAccess.ConfigExtensions.UseDataAccessConfig
+  fullName: Pandv.DataAccess.ConfigExtensions.UseDataAccessConfig
+  nameWithType: ConfigExtensions.UseDataAccessConfig
+- uid: Pandv.DataAccess.ConfigExtensions.UseSqlServer(IServiceCollection)
+  name: UseSqlServer(IServiceCollection)
+  href: api/Pandv.DataAccess.ConfigExtensions.html#Pandv_DataAccess_ConfigExtensions_UseSqlServer_IServiceCollection_
+  commentId: M:Pandv.DataAccess.ConfigExtensions.UseSqlServer(IServiceCollection)
+  fullName: Pandv.DataAccess.ConfigExtensions.UseSqlServer(IServiceCollection)
+  nameWithType: ConfigExtensions.UseSqlServer(IServiceCollection)
+- uid: Pandv.DataAccess.ConfigExtensions.UseSqlServer*
+  name: UseSqlServer
+  href: api/Pandv.DataAccess.ConfigExtensions.html#Pandv_DataAccess_ConfigExtensions_UseSqlServer_
+  commentId: Overload:Pandv.DataAccess.ConfigExtensions.UseSqlServer
+  fullName: Pandv.DataAccess.ConfigExtensions.UseSqlServer
+  nameWithType: ConfigExtensions.UseSqlServer
+- uid: Pandv.DataAccess.DataConnection
+  name: DataConnection
+  href: api/Pandv.DataAccess.DataConnection.html
+  commentId: T:Pandv.DataAccess.DataConnection
+  fullName: Pandv.DataAccess.DataConnection
+  nameWithType: DataConnection
+- uid: Pandv.DataAccess.DataConnection.ConnectionString
+  name: ConnectionString
+  href: api/Pandv.DataAccess.DataConnection.html#Pandv_DataAccess_DataConnection_ConnectionString
+  commentId: P:Pandv.DataAccess.DataConnection.ConnectionString
+  fullName: Pandv.DataAccess.DataConnection.ConnectionString
+  nameWithType: DataConnection.ConnectionString
+- uid: Pandv.DataAccess.DataConnection.ConnectionString*
+  name: ConnectionString
+  href: api/Pandv.DataAccess.DataConnection.html#Pandv_DataAccess_DataConnection_ConnectionString_
+  commentId: Overload:Pandv.DataAccess.DataConnection.ConnectionString
+  fullName: Pandv.DataAccess.DataConnection.ConnectionString
+  nameWithType: DataConnection.ConnectionString
+- uid: Pandv.DataAccess.DataConnection.Name
+  name: Name
+  href: api/Pandv.DataAccess.DataConnection.html#Pandv_DataAccess_DataConnection_Name
+  commentId: P:Pandv.DataAccess.DataConnection.Name
+  fullName: Pandv.DataAccess.DataConnection.Name
+  nameWithType: DataConnection.Name
+- uid: Pandv.DataAccess.DataConnection.Name*
+  name: Name
+  href: api/Pandv.DataAccess.DataConnection.html#Pandv_DataAccess_DataConnection_Name_
+  commentId: Overload:Pandv.DataAccess.DataConnection.Name
+  fullName: Pandv.DataAccess.DataConnection.Name
+  nameWithType: DataConnection.Name
+- uid: Pandv.DataAccess.DbConfig
+  name: DbConfig
+  href: api/Pandv.DataAccess.DbConfig.html
+  commentId: T:Pandv.DataAccess.DbConfig
+  fullName: Pandv.DataAccess.DbConfig
+  nameWithType: DbConfig
+- uid: Pandv.DataAccess.DbConfig.ConnectionStrings
+  name: ConnectionStrings
+  href: api/Pandv.DataAccess.DbConfig.html#Pandv_DataAccess_DbConfig_ConnectionStrings
+  commentId: P:Pandv.DataAccess.DbConfig.ConnectionStrings
+  fullName: Pandv.DataAccess.DbConfig.ConnectionStrings
+  nameWithType: DbConfig.ConnectionStrings
+- uid: Pandv.DataAccess.DbConfig.ConnectionStrings*
+  name: ConnectionStrings
+  href: api/Pandv.DataAccess.DbConfig.html#Pandv_DataAccess_DbConfig_ConnectionStrings_
+  commentId: Overload:Pandv.DataAccess.DbConfig.ConnectionStrings
+  fullName: Pandv.DataAccess.DbConfig.ConnectionStrings
+  nameWithType: DbConfig.ConnectionStrings
+- uid: Pandv.DataAccess.DbConfig.SqlConfigs
+  name: SqlConfigs
+  href: api/Pandv.DataAccess.DbConfig.html#Pandv_DataAccess_DbConfig_SqlConfigs
+  commentId: P:Pandv.DataAccess.DbConfig.SqlConfigs
+  fullName: Pandv.DataAccess.DbConfig.SqlConfigs
+  nameWithType: DbConfig.SqlConfigs
+- uid: Pandv.DataAccess.DbConfig.SqlConfigs*
+  name: SqlConfigs
+  href: api/Pandv.DataAccess.DbConfig.html#Pandv_DataAccess_DbConfig_SqlConfigs_
+  commentId: Overload:Pandv.DataAccess.DbConfig.SqlConfigs
+  fullName: Pandv.DataAccess.DbConfig.SqlConfigs
+  nameWithType: DbConfig.SqlConfigs
+- uid: Pandv.DataAccess.DbProvider
+  name: DbProvider
+  href: api/Pandv.DataAccess.DbProvider.html
+  commentId: T:Pandv.DataAccess.DbProvider
+  fullName: Pandv.DataAccess.DbProvider
+  nameWithType: DbProvider
+- uid: Pandv.DataAccess.DbProvider.#ctor(IConfig,IServiceProvider)
+  name: DbProvider(IConfig, IServiceProvider)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider__ctor_IConfig_IServiceProvider_
+  commentId: M:Pandv.DataAccess.DbProvider.#ctor(IConfig,IServiceProvider)
+  fullName: Pandv.DataAccess.DbProvider.DbProvider(IConfig, IServiceProvider)
+  nameWithType: DbProvider.DbProvider(IConfig, IServiceProvider)
+- uid: Pandv.DataAccess.DbProvider.#ctor*
+  name: DbProvider
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider__ctor_
+  commentId: Overload:Pandv.DataAccess.DbProvider.#ctor
+  fullName: Pandv.DataAccess.DbProvider.DbProvider
+  nameWithType: DbProvider.DbProvider
+- uid: Pandv.DataAccess.DbProvider.DbConfigKey
+  name: DbConfigKey
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_DbConfigKey
+  commentId: F:Pandv.DataAccess.DbProvider.DbConfigKey
+  fullName: Pandv.DataAccess.DbProvider.DbConfigKey
+  nameWithType: DbProvider.DbConfigKey
+- uid: Pandv.DataAccess.DbProvider.Exec*
+  name: Exec
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_Exec_
+  commentId: Overload:Pandv.DataAccess.DbProvider.Exec
+  fullName: Pandv.DataAccess.DbProvider.Exec
+  nameWithType: DbProvider.Exec
+- uid: Pandv.DataAccess.DbProvider.Exec``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken,Func{IDbConnection,CommandDefinition,``0})
+  name: Exec<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken, Func<IDbConnection, CommandDefinition, T>)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_Exec__1_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_Func_IDbConnection_CommandDefinition___0__
+  commentId: M:Pandv.DataAccess.DbProvider.Exec``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken,Func{IDbConnection,CommandDefinition,``0})
+  name.vb: Exec(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken, Func(Of IDbConnection, CommandDefinition, T))
+  fullName: Pandv.DataAccess.DbProvider.Exec<T>(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken, Func<IDbConnection, CommandDefinition, T>)
+  fullName.vb: Pandv.DataAccess.DbProvider.Exec(Of T)(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken, Func(Of IDbConnection, CommandDefinition, T))
+  nameWithType: DbProvider.Exec<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken, Func<IDbConnection, CommandDefinition, T>)
+  nameWithType.vb: DbProvider.Exec(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken, Func(Of IDbConnection, CommandDefinition, T))
+- uid: Pandv.DataAccess.DbProvider.Execute(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: Execute(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_Execute_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.DbProvider.Execute(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.DbProvider.Execute(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: DbProvider.Execute(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.DbProvider.Execute*
+  name: Execute
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_Execute_
+  commentId: Overload:Pandv.DataAccess.DbProvider.Execute
+  fullName: Pandv.DataAccess.DbProvider.Execute
+  nameWithType: DbProvider.Execute
+- uid: Pandv.DataAccess.DbProvider.ExecuteAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: ExecuteAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteAsync_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.DbProvider.ExecuteAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.DbProvider.ExecuteAsync(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: DbProvider.ExecuteAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.DbProvider.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteAsync_
+  commentId: Overload:Pandv.DataAccess.DbProvider.ExecuteAsync
+  fullName: Pandv.DataAccess.DbProvider.ExecuteAsync
+  nameWithType: DbProvider.ExecuteAsync
+- uid: Pandv.DataAccess.DbProvider.ExecuteBulkCopy*
+  name: ExecuteBulkCopy
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteBulkCopy_
+  commentId: Overload:Pandv.DataAccess.DbProvider.ExecuteBulkCopy
+  fullName: Pandv.DataAccess.DbProvider.ExecuteBulkCopy
+  nameWithType: DbProvider.ExecuteBulkCopy
+- uid: Pandv.DataAccess.DbProvider.ExecuteBulkCopy``1(System.String,System.Collections.Generic.List{``0})
+  name: ExecuteBulkCopy<T>(String, List<T>)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteBulkCopy__1_System_String_System_Collections_Generic_List___0__
+  commentId: M:Pandv.DataAccess.DbProvider.ExecuteBulkCopy``1(System.String,System.Collections.Generic.List{``0})
+  name.vb: ExecuteBulkCopy(Of T)(String, List(Of T))
+  fullName: Pandv.DataAccess.DbProvider.ExecuteBulkCopy<T>(System.String, System.Collections.Generic.List<T>)
+  fullName.vb: Pandv.DataAccess.DbProvider.ExecuteBulkCopy(Of T)(System.String, System.Collections.Generic.List(Of T))
+  nameWithType: DbProvider.ExecuteBulkCopy<T>(String, List<T>)
+  nameWithType.vb: DbProvider.ExecuteBulkCopy(Of T)(String, List(Of T))
+- uid: Pandv.DataAccess.DbProvider.ExecuteBulkCopyAsync*
+  name: ExecuteBulkCopyAsync
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteBulkCopyAsync_
+  commentId: Overload:Pandv.DataAccess.DbProvider.ExecuteBulkCopyAsync
+  fullName: Pandv.DataAccess.DbProvider.ExecuteBulkCopyAsync
+  nameWithType: DbProvider.ExecuteBulkCopyAsync
+- uid: Pandv.DataAccess.DbProvider.ExecuteBulkCopyAsync``1(System.String,System.Collections.Generic.List{``0})
+  name: ExecuteBulkCopyAsync<T>(String, List<T>)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteBulkCopyAsync__1_System_String_System_Collections_Generic_List___0__
+  commentId: M:Pandv.DataAccess.DbProvider.ExecuteBulkCopyAsync``1(System.String,System.Collections.Generic.List{``0})
+  name.vb: ExecuteBulkCopyAsync(Of T)(String, List(Of T))
+  fullName: Pandv.DataAccess.DbProvider.ExecuteBulkCopyAsync<T>(System.String, System.Collections.Generic.List<T>)
+  fullName.vb: Pandv.DataAccess.DbProvider.ExecuteBulkCopyAsync(Of T)(System.String, System.Collections.Generic.List(Of T))
+  nameWithType: DbProvider.ExecuteBulkCopyAsync<T>(String, List<T>)
+  nameWithType.vb: DbProvider.ExecuteBulkCopyAsync(Of T)(String, List(Of T))
+- uid: Pandv.DataAccess.DbProvider.ExecuteReader(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: ExecuteReader(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteReader_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.DbProvider.ExecuteReader(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.DbProvider.ExecuteReader(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: DbProvider.ExecuteReader(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.DbProvider.ExecuteReader*
+  name: ExecuteReader
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteReader_
+  commentId: Overload:Pandv.DataAccess.DbProvider.ExecuteReader
+  fullName: Pandv.DataAccess.DbProvider.ExecuteReader
+  nameWithType: DbProvider.ExecuteReader
+- uid: Pandv.DataAccess.DbProvider.ExecuteReaderAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: ExecuteReaderAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteReaderAsync_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.DbProvider.ExecuteReaderAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.DbProvider.ExecuteReaderAsync(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: DbProvider.ExecuteReaderAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.DbProvider.ExecuteReaderAsync*
+  name: ExecuteReaderAsync
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteReaderAsync_
+  commentId: Overload:Pandv.DataAccess.DbProvider.ExecuteReaderAsync
+  fullName: Pandv.DataAccess.DbProvider.ExecuteReaderAsync
+  nameWithType: DbProvider.ExecuteReaderAsync
+- uid: Pandv.DataAccess.DbProvider.ExecuteScalar*
+  name: ExecuteScalar
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteScalar_
+  commentId: Overload:Pandv.DataAccess.DbProvider.ExecuteScalar
+  fullName: Pandv.DataAccess.DbProvider.ExecuteScalar
+  nameWithType: DbProvider.ExecuteScalar
+- uid: Pandv.DataAccess.DbProvider.ExecuteScalar``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: ExecuteScalar<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteScalar__1_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.DbProvider.ExecuteScalar``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name.vb: ExecuteScalar(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName: Pandv.DataAccess.DbProvider.ExecuteScalar<T>(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName.vb: Pandv.DataAccess.DbProvider.ExecuteScalar(Of T)(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: DbProvider.ExecuteScalar<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType.vb: DbProvider.ExecuteScalar(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.DbProvider.ExecuteScalarAsync*
+  name: ExecuteScalarAsync
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteScalarAsync_
+  commentId: Overload:Pandv.DataAccess.DbProvider.ExecuteScalarAsync
+  fullName: Pandv.DataAccess.DbProvider.ExecuteScalarAsync
+  nameWithType: DbProvider.ExecuteScalarAsync
+- uid: Pandv.DataAccess.DbProvider.ExecuteScalarAsync``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: ExecuteScalarAsync<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_ExecuteScalarAsync__1_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.DbProvider.ExecuteScalarAsync``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name.vb: ExecuteScalarAsync(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName: Pandv.DataAccess.DbProvider.ExecuteScalarAsync<T>(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName.vb: Pandv.DataAccess.DbProvider.ExecuteScalarAsync(Of T)(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: DbProvider.ExecuteScalarAsync<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType.vb: DbProvider.ExecuteScalarAsync(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.DbProvider.GetConnection
+  name: GetConnection()
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_GetConnection
+  commentId: M:Pandv.DataAccess.DbProvider.GetConnection
+  fullName: Pandv.DataAccess.DbProvider.GetConnection()
+  nameWithType: DbProvider.GetConnection()
+- uid: Pandv.DataAccess.DbProvider.GetConnection*
+  name: GetConnection
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_GetConnection_
+  commentId: Overload:Pandv.DataAccess.DbProvider.GetConnection
+  fullName: Pandv.DataAccess.DbProvider.GetConnection
+  nameWithType: DbProvider.GetConnection
+- uid: Pandv.DataAccess.DbProvider.Query*
+  name: Query
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_Query_
+  commentId: Overload:Pandv.DataAccess.DbProvider.Query
+  fullName: Pandv.DataAccess.DbProvider.Query
+  nameWithType: DbProvider.Query
+- uid: Pandv.DataAccess.DbProvider.Query``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: Query<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_Query__1_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.DbProvider.Query``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name.vb: Query(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName: Pandv.DataAccess.DbProvider.Query<T>(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName.vb: Pandv.DataAccess.DbProvider.Query(Of T)(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: DbProvider.Query<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType.vb: DbProvider.Query(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.DbProvider.QueryAsync*
+  name: QueryAsync
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_QueryAsync_
+  commentId: Overload:Pandv.DataAccess.DbProvider.QueryAsync
+  fullName: Pandv.DataAccess.DbProvider.QueryAsync
+  nameWithType: DbProvider.QueryAsync
+- uid: Pandv.DataAccess.DbProvider.QueryAsync``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: QueryAsync<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_QueryAsync__1_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.DbProvider.QueryAsync``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name.vb: QueryAsync(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName: Pandv.DataAccess.DbProvider.QueryAsync<T>(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName.vb: Pandv.DataAccess.DbProvider.QueryAsync(Of T)(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: DbProvider.QueryAsync<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType.vb: DbProvider.QueryAsync(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.DbProvider.QueryFirstOrDefault*
+  name: QueryFirstOrDefault
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_QueryFirstOrDefault_
+  commentId: Overload:Pandv.DataAccess.DbProvider.QueryFirstOrDefault
+  fullName: Pandv.DataAccess.DbProvider.QueryFirstOrDefault
+  nameWithType: DbProvider.QueryFirstOrDefault
+- uid: Pandv.DataAccess.DbProvider.QueryFirstOrDefault``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: QueryFirstOrDefault<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_QueryFirstOrDefault__1_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.DbProvider.QueryFirstOrDefault``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name.vb: QueryFirstOrDefault(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName: Pandv.DataAccess.DbProvider.QueryFirstOrDefault<T>(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName.vb: Pandv.DataAccess.DbProvider.QueryFirstOrDefault(Of T)(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: DbProvider.QueryFirstOrDefault<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType.vb: DbProvider.QueryFirstOrDefault(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.DbProvider.QueryFirstOrDefaultAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: QueryFirstOrDefaultAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_QueryFirstOrDefaultAsync_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.DbProvider.QueryFirstOrDefaultAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.DbProvider.QueryFirstOrDefaultAsync(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: DbProvider.QueryFirstOrDefaultAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.DbProvider.QueryFirstOrDefaultAsync*
+  name: QueryFirstOrDefaultAsync
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_QueryFirstOrDefaultAsync_
+  commentId: Overload:Pandv.DataAccess.DbProvider.QueryFirstOrDefaultAsync
+  fullName: Pandv.DataAccess.DbProvider.QueryFirstOrDefaultAsync
+  nameWithType: DbProvider.QueryFirstOrDefaultAsync
+- uid: Pandv.DataAccess.DbProvider.QueryMultiple(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: QueryMultiple(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_QueryMultiple_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.DbProvider.QueryMultiple(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.DbProvider.QueryMultiple(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: DbProvider.QueryMultiple(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.DbProvider.QueryMultiple*
+  name: QueryMultiple
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_QueryMultiple_
+  commentId: Overload:Pandv.DataAccess.DbProvider.QueryMultiple
+  fullName: Pandv.DataAccess.DbProvider.QueryMultiple
+  nameWithType: DbProvider.QueryMultiple
+- uid: Pandv.DataAccess.DbProvider.QueryMultipleAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: QueryMultipleAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_QueryMultipleAsync_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.DbProvider.QueryMultipleAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.DbProvider.QueryMultipleAsync(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: DbProvider.QueryMultipleAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.DbProvider.QueryMultipleAsync*
+  name: QueryMultipleAsync
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_QueryMultipleAsync_
+  commentId: Overload:Pandv.DataAccess.DbProvider.QueryMultipleAsync
+  fullName: Pandv.DataAccess.DbProvider.QueryMultipleAsync
+  nameWithType: DbProvider.QueryMultipleAsync
+- uid: Pandv.DataAccess.DbProvider.SqlConfigs
+  name: SqlConfigs
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_SqlConfigs
+  commentId: P:Pandv.DataAccess.DbProvider.SqlConfigs
+  fullName: Pandv.DataAccess.DbProvider.SqlConfigs
+  nameWithType: DbProvider.SqlConfigs
+- uid: Pandv.DataAccess.DbProvider.SqlConfigs*
+  name: SqlConfigs
+  href: api/Pandv.DataAccess.DbProvider.html#Pandv_DataAccess_DbProvider_SqlConfigs_
+  commentId: Overload:Pandv.DataAccess.DbProvider.SqlConfigs
+  fullName: Pandv.DataAccess.DbProvider.SqlConfigs
+  nameWithType: DbProvider.SqlConfigs
+- uid: Pandv.DataAccess.DbSql
+  name: DbSql
+  href: api/Pandv.DataAccess.DbSql.html
+  commentId: T:Pandv.DataAccess.DbSql
+  fullName: Pandv.DataAccess.DbSql
+  nameWithType: DbSql
+- uid: Pandv.DataAccess.DbSql.Clone
+  name: Clone()
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_Clone
+  commentId: M:Pandv.DataAccess.DbSql.Clone
+  fullName: Pandv.DataAccess.DbSql.Clone()
+  nameWithType: DbSql.Clone()
+- uid: Pandv.DataAccess.DbSql.Clone*
+  name: Clone
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_Clone_
+  commentId: Overload:Pandv.DataAccess.DbSql.Clone
+  fullName: Pandv.DataAccess.DbSql.Clone
+  nameWithType: DbSql.Clone
+- uid: Pandv.DataAccess.DbSql.CommandName
+  name: CommandName
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_CommandName
+  commentId: P:Pandv.DataAccess.DbSql.CommandName
+  fullName: Pandv.DataAccess.DbSql.CommandName
+  nameWithType: DbSql.CommandName
+- uid: Pandv.DataAccess.DbSql.CommandName*
+  name: CommandName
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_CommandName_
+  commentId: Overload:Pandv.DataAccess.DbSql.CommandName
+  fullName: Pandv.DataAccess.DbSql.CommandName
+  nameWithType: DbSql.CommandName
+- uid: Pandv.DataAccess.DbSql.ConnectionName
+  name: ConnectionName
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_ConnectionName
+  commentId: P:Pandv.DataAccess.DbSql.ConnectionName
+  fullName: Pandv.DataAccess.DbSql.ConnectionName
+  nameWithType: DbSql.ConnectionName
+- uid: Pandv.DataAccess.DbSql.ConnectionName*
+  name: ConnectionName
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_ConnectionName_
+  commentId: Overload:Pandv.DataAccess.DbSql.ConnectionName
+  fullName: Pandv.DataAccess.DbSql.ConnectionName
+  nameWithType: DbSql.ConnectionName
+- uid: Pandv.DataAccess.DbSql.ConnectionString
+  name: ConnectionString
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_ConnectionString
+  commentId: P:Pandv.DataAccess.DbSql.ConnectionString
+  fullName: Pandv.DataAccess.DbSql.ConnectionString
+  nameWithType: DbSql.ConnectionString
+- uid: Pandv.DataAccess.DbSql.ConnectionString*
+  name: ConnectionString
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_ConnectionString_
+  commentId: Overload:Pandv.DataAccess.DbSql.ConnectionString
+  fullName: Pandv.DataAccess.DbSql.ConnectionString
+  nameWithType: DbSql.ConnectionString
+- uid: Pandv.DataAccess.DbSql.Text
+  name: Text
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_Text
+  commentId: P:Pandv.DataAccess.DbSql.Text
+  fullName: Pandv.DataAccess.DbSql.Text
+  nameWithType: DbSql.Text
+- uid: Pandv.DataAccess.DbSql.Text*
+  name: Text
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_Text_
+  commentId: Overload:Pandv.DataAccess.DbSql.Text
+  fullName: Pandv.DataAccess.DbSql.Text
+  nameWithType: DbSql.Text
+- uid: Pandv.DataAccess.DbSql.Timeout
+  name: Timeout
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_Timeout
+  commentId: P:Pandv.DataAccess.DbSql.Timeout
+  fullName: Pandv.DataAccess.DbSql.Timeout
+  nameWithType: DbSql.Timeout
+- uid: Pandv.DataAccess.DbSql.Timeout*
+  name: Timeout
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_Timeout_
+  commentId: Overload:Pandv.DataAccess.DbSql.Timeout
+  fullName: Pandv.DataAccess.DbSql.Timeout
+  nameWithType: DbSql.Timeout
+- uid: Pandv.DataAccess.DbSql.ToCommandDefinition(System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: ToCommandDefinition(Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_ToCommandDefinition_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.DbSql.ToCommandDefinition(System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.DbSql.ToCommandDefinition(System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: DbSql.ToCommandDefinition(Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.DbSql.ToCommandDefinition*
+  name: ToCommandDefinition
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_ToCommandDefinition_
+  commentId: Overload:Pandv.DataAccess.DbSql.ToCommandDefinition
+  fullName: Pandv.DataAccess.DbSql.ToCommandDefinition
+  nameWithType: DbSql.ToCommandDefinition
+- uid: Pandv.DataAccess.DbSql.Type
+  name: Type
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_Type
+  commentId: P:Pandv.DataAccess.DbSql.Type
+  fullName: Pandv.DataAccess.DbSql.Type
+  nameWithType: DbSql.Type
+- uid: Pandv.DataAccess.DbSql.Type*
+  name: Type
+  href: api/Pandv.DataAccess.DbSql.html#Pandv_DataAccess_DbSql_Type_
+  commentId: Overload:Pandv.DataAccess.DbSql.Type
+  fullName: Pandv.DataAccess.DbSql.Type
+  nameWithType: DbSql.Type
+- uid: Pandv.DataAccess.IDbProvider
+  name: IDbProvider
+  href: api/Pandv.DataAccess.IDbProvider.html
+  commentId: T:Pandv.DataAccess.IDbProvider
+  fullName: Pandv.DataAccess.IDbProvider
+  nameWithType: IDbProvider
+- uid: Pandv.DataAccess.IDbProvider.Exec*
+  name: Exec
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_Exec_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.Exec
+  fullName: Pandv.DataAccess.IDbProvider.Exec
+  nameWithType: IDbProvider.Exec
+- uid: Pandv.DataAccess.IDbProvider.Exec``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken,Func{IDbConnection,CommandDefinition,``0})
+  name: Exec<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken, Func<IDbConnection, CommandDefinition, T>)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_Exec__1_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_Func_IDbConnection_CommandDefinition___0__
+  commentId: M:Pandv.DataAccess.IDbProvider.Exec``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken,Func{IDbConnection,CommandDefinition,``0})
+  name.vb: Exec(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken, Func(Of IDbConnection, CommandDefinition, T))
+  fullName: Pandv.DataAccess.IDbProvider.Exec<T>(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken, Func<IDbConnection, CommandDefinition, T>)
+  fullName.vb: Pandv.DataAccess.IDbProvider.Exec(Of T)(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken, Func(Of IDbConnection, CommandDefinition, T))
+  nameWithType: IDbProvider.Exec<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken, Func<IDbConnection, CommandDefinition, T>)
+  nameWithType.vb: IDbProvider.Exec(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken, Func(Of IDbConnection, CommandDefinition, T))
+- uid: Pandv.DataAccess.IDbProvider.Execute(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: Execute(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_Execute_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.IDbProvider.Execute(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.IDbProvider.Execute(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: IDbProvider.Execute(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.IDbProvider.Execute*
+  name: Execute
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_Execute_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.Execute
+  fullName: Pandv.DataAccess.IDbProvider.Execute
+  nameWithType: IDbProvider.Execute
+- uid: Pandv.DataAccess.IDbProvider.ExecuteAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: ExecuteAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteAsync_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.IDbProvider.ExecuteAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteAsync(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: IDbProvider.ExecuteAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.IDbProvider.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteAsync_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.ExecuteAsync
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteAsync
+  nameWithType: IDbProvider.ExecuteAsync
+- uid: Pandv.DataAccess.IDbProvider.ExecuteBulkCopy*
+  name: ExecuteBulkCopy
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteBulkCopy_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.ExecuteBulkCopy
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteBulkCopy
+  nameWithType: IDbProvider.ExecuteBulkCopy
+- uid: Pandv.DataAccess.IDbProvider.ExecuteBulkCopy``1(System.String,System.Collections.Generic.List{``0})
+  name: ExecuteBulkCopy<T>(String, List<T>)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteBulkCopy__1_System_String_System_Collections_Generic_List___0__
+  commentId: M:Pandv.DataAccess.IDbProvider.ExecuteBulkCopy``1(System.String,System.Collections.Generic.List{``0})
+  name.vb: ExecuteBulkCopy(Of T)(String, List(Of T))
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteBulkCopy<T>(System.String, System.Collections.Generic.List<T>)
+  fullName.vb: Pandv.DataAccess.IDbProvider.ExecuteBulkCopy(Of T)(System.String, System.Collections.Generic.List(Of T))
+  nameWithType: IDbProvider.ExecuteBulkCopy<T>(String, List<T>)
+  nameWithType.vb: IDbProvider.ExecuteBulkCopy(Of T)(String, List(Of T))
+- uid: Pandv.DataAccess.IDbProvider.ExecuteBulkCopyAsync*
+  name: ExecuteBulkCopyAsync
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteBulkCopyAsync_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.ExecuteBulkCopyAsync
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteBulkCopyAsync
+  nameWithType: IDbProvider.ExecuteBulkCopyAsync
+- uid: Pandv.DataAccess.IDbProvider.ExecuteBulkCopyAsync``1(System.String,System.Collections.Generic.List{``0})
+  name: ExecuteBulkCopyAsync<T>(String, List<T>)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteBulkCopyAsync__1_System_String_System_Collections_Generic_List___0__
+  commentId: M:Pandv.DataAccess.IDbProvider.ExecuteBulkCopyAsync``1(System.String,System.Collections.Generic.List{``0})
+  name.vb: ExecuteBulkCopyAsync(Of T)(String, List(Of T))
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteBulkCopyAsync<T>(System.String, System.Collections.Generic.List<T>)
+  fullName.vb: Pandv.DataAccess.IDbProvider.ExecuteBulkCopyAsync(Of T)(System.String, System.Collections.Generic.List(Of T))
+  nameWithType: IDbProvider.ExecuteBulkCopyAsync<T>(String, List<T>)
+  nameWithType.vb: IDbProvider.ExecuteBulkCopyAsync(Of T)(String, List(Of T))
+- uid: Pandv.DataAccess.IDbProvider.ExecuteReader(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: ExecuteReader(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteReader_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.IDbProvider.ExecuteReader(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteReader(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: IDbProvider.ExecuteReader(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.IDbProvider.ExecuteReader*
+  name: ExecuteReader
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteReader_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.ExecuteReader
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteReader
+  nameWithType: IDbProvider.ExecuteReader
+- uid: Pandv.DataAccess.IDbProvider.ExecuteReaderAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: ExecuteReaderAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteReaderAsync_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.IDbProvider.ExecuteReaderAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteReaderAsync(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: IDbProvider.ExecuteReaderAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.IDbProvider.ExecuteReaderAsync*
+  name: ExecuteReaderAsync
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteReaderAsync_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.ExecuteReaderAsync
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteReaderAsync
+  nameWithType: IDbProvider.ExecuteReaderAsync
+- uid: Pandv.DataAccess.IDbProvider.ExecuteScalar*
+  name: ExecuteScalar
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteScalar_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.ExecuteScalar
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteScalar
+  nameWithType: IDbProvider.ExecuteScalar
+- uid: Pandv.DataAccess.IDbProvider.ExecuteScalar``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: ExecuteScalar<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteScalar__1_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.IDbProvider.ExecuteScalar``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name.vb: ExecuteScalar(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteScalar<T>(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName.vb: Pandv.DataAccess.IDbProvider.ExecuteScalar(Of T)(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: IDbProvider.ExecuteScalar<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType.vb: IDbProvider.ExecuteScalar(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.IDbProvider.ExecuteScalarAsync*
+  name: ExecuteScalarAsync
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteScalarAsync_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.ExecuteScalarAsync
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteScalarAsync
+  nameWithType: IDbProvider.ExecuteScalarAsync
+- uid: Pandv.DataAccess.IDbProvider.ExecuteScalarAsync``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: ExecuteScalarAsync<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_ExecuteScalarAsync__1_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.IDbProvider.ExecuteScalarAsync``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name.vb: ExecuteScalarAsync(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName: Pandv.DataAccess.IDbProvider.ExecuteScalarAsync<T>(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName.vb: Pandv.DataAccess.IDbProvider.ExecuteScalarAsync(Of T)(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: IDbProvider.ExecuteScalarAsync<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType.vb: IDbProvider.ExecuteScalarAsync(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.IDbProvider.Query*
+  name: Query
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_Query_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.Query
+  fullName: Pandv.DataAccess.IDbProvider.Query
+  nameWithType: IDbProvider.Query
+- uid: Pandv.DataAccess.IDbProvider.Query``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: Query<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_Query__1_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.IDbProvider.Query``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name.vb: Query(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName: Pandv.DataAccess.IDbProvider.Query<T>(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName.vb: Pandv.DataAccess.IDbProvider.Query(Of T)(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: IDbProvider.Query<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType.vb: IDbProvider.Query(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.IDbProvider.QueryAsync*
+  name: QueryAsync
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_QueryAsync_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.QueryAsync
+  fullName: Pandv.DataAccess.IDbProvider.QueryAsync
+  nameWithType: IDbProvider.QueryAsync
+- uid: Pandv.DataAccess.IDbProvider.QueryAsync``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: QueryAsync<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_QueryAsync__1_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.IDbProvider.QueryAsync``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name.vb: QueryAsync(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName: Pandv.DataAccess.IDbProvider.QueryAsync<T>(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName.vb: Pandv.DataAccess.IDbProvider.QueryAsync(Of T)(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: IDbProvider.QueryAsync<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType.vb: IDbProvider.QueryAsync(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.IDbProvider.QueryFirstOrDefault*
+  name: QueryFirstOrDefault
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_QueryFirstOrDefault_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.QueryFirstOrDefault
+  fullName: Pandv.DataAccess.IDbProvider.QueryFirstOrDefault
+  nameWithType: IDbProvider.QueryFirstOrDefault
+- uid: Pandv.DataAccess.IDbProvider.QueryFirstOrDefault``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: QueryFirstOrDefault<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_QueryFirstOrDefault__1_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.IDbProvider.QueryFirstOrDefault``1(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name.vb: QueryFirstOrDefault(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName: Pandv.DataAccess.IDbProvider.QueryFirstOrDefault<T>(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  fullName.vb: Pandv.DataAccess.IDbProvider.QueryFirstOrDefault(Of T)(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: IDbProvider.QueryFirstOrDefault<T>(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType.vb: IDbProvider.QueryFirstOrDefault(Of T)(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.IDbProvider.QueryFirstOrDefaultAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: QueryFirstOrDefaultAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_QueryFirstOrDefaultAsync_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.IDbProvider.QueryFirstOrDefaultAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.IDbProvider.QueryFirstOrDefaultAsync(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: IDbProvider.QueryFirstOrDefaultAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.IDbProvider.QueryFirstOrDefaultAsync*
+  name: QueryFirstOrDefaultAsync
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_QueryFirstOrDefaultAsync_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.QueryFirstOrDefaultAsync
+  fullName: Pandv.DataAccess.IDbProvider.QueryFirstOrDefaultAsync
+  nameWithType: IDbProvider.QueryFirstOrDefaultAsync
+- uid: Pandv.DataAccess.IDbProvider.QueryMultiple(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: QueryMultiple(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_QueryMultiple_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.IDbProvider.QueryMultiple(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.IDbProvider.QueryMultiple(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: IDbProvider.QueryMultiple(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.IDbProvider.QueryMultiple*
+  name: QueryMultiple
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_QueryMultiple_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.QueryMultiple
+  fullName: Pandv.DataAccess.IDbProvider.QueryMultiple
+  nameWithType: IDbProvider.QueryMultiple
+- uid: Pandv.DataAccess.IDbProvider.QueryMultipleAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  name: QueryMultipleAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_QueryMultipleAsync_System_String_System_Object_IDbTransaction_CommandFlags_CancellationToken_
+  commentId: M:Pandv.DataAccess.IDbProvider.QueryMultipleAsync(System.String,System.Object,IDbTransaction,CommandFlags,CancellationToken)
+  fullName: Pandv.DataAccess.IDbProvider.QueryMultipleAsync(System.String, System.Object, IDbTransaction, CommandFlags, CancellationToken)
+  nameWithType: IDbProvider.QueryMultipleAsync(String, Object, IDbTransaction, CommandFlags, CancellationToken)
+- uid: Pandv.DataAccess.IDbProvider.QueryMultipleAsync*
+  name: QueryMultipleAsync
+  href: api/Pandv.DataAccess.IDbProvider.html#Pandv_DataAccess_IDbProvider_QueryMultipleAsync_
+  commentId: Overload:Pandv.DataAccess.IDbProvider.QueryMultipleAsync
+  fullName: Pandv.DataAccess.IDbProvider.QueryMultipleAsync
+  nameWithType: IDbProvider.QueryMultipleAsync
+- uid: Pandv.DataAccess.ListDataReader`1
+  name: ListDataReader<T>
+  href: api/Pandv.DataAccess.ListDataReader-1.html
+  commentId: T:Pandv.DataAccess.ListDataReader`1
+  name.vb: ListDataReader(Of T)
+  fullName: Pandv.DataAccess.ListDataReader<T>
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T)
+  nameWithType: ListDataReader<T>
+  nameWithType.vb: ListDataReader(Of T)
+- uid: Pandv.DataAccess.ListDataReader`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name: ListDataReader(IEnumerable<T>)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1__ctor_System_Collections_Generic_IEnumerable__0__
+  commentId: M:Pandv.DataAccess.ListDataReader`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name.vb: ListDataReader(IEnumerable(Of T))
+  fullName: Pandv.DataAccess.ListDataReader<T>.ListDataReader(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).ListDataReader(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ListDataReader<T>.ListDataReader(IEnumerable<T>)
+  nameWithType.vb: ListDataReader(Of T).ListDataReader(IEnumerable(Of T))
+- uid: Pandv.DataAccess.ListDataReader`1.#ctor*
+  name: ListDataReader
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1__ctor_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.#ctor
+  fullName: Pandv.DataAccess.ListDataReader<T>.ListDataReader
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).ListDataReader
+  nameWithType: ListDataReader<T>.ListDataReader
+  nameWithType.vb: ListDataReader(Of T).ListDataReader
+- uid: Pandv.DataAccess.ListDataReader`1._Data
+  name: _Data
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1__Data
+  commentId: F:Pandv.DataAccess.ListDataReader`1._Data
+  fullName: Pandv.DataAccess.ListDataReader<T>._Data
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T)._Data
+  nameWithType: ListDataReader<T>._Data
+  nameWithType.vb: ListDataReader(Of T)._Data
+- uid: Pandv.DataAccess.ListDataReader`1._Getters
+  name: _Getters
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1__Getters
+  commentId: F:Pandv.DataAccess.ListDataReader`1._Getters
+  fullName: Pandv.DataAccess.ListDataReader<T>._Getters
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T)._Getters
+  nameWithType: ListDataReader<T>._Getters
+  nameWithType.vb: ListDataReader(Of T)._Getters
+- uid: Pandv.DataAccess.ListDataReader`1._NameIndexs
+  name: _NameIndexs
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1__NameIndexs
+  commentId: F:Pandv.DataAccess.ListDataReader`1._NameIndexs
+  fullName: Pandv.DataAccess.ListDataReader<T>._NameIndexs
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T)._NameIndexs
+  nameWithType: ListDataReader<T>._NameIndexs
+  nameWithType.vb: ListDataReader(Of T)._NameIndexs
+- uid: Pandv.DataAccess.ListDataReader`1._PropertyInfos
+  name: _PropertyInfos
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1__PropertyInfos
+  commentId: F:Pandv.DataAccess.ListDataReader`1._PropertyInfos
+  fullName: Pandv.DataAccess.ListDataReader<T>._PropertyInfos
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T)._PropertyInfos
+  nameWithType: ListDataReader<T>._PropertyInfos
+  nameWithType.vb: ListDataReader(Of T)._PropertyInfos
+- uid: Pandv.DataAccess.ListDataReader`1.Depth
+  name: Depth
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_Depth
+  commentId: P:Pandv.DataAccess.ListDataReader`1.Depth
+  fullName: Pandv.DataAccess.ListDataReader<T>.Depth
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).Depth
+  nameWithType: ListDataReader<T>.Depth
+  nameWithType.vb: ListDataReader(Of T).Depth
+- uid: Pandv.DataAccess.ListDataReader`1.Depth*
+  name: Depth
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_Depth_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.Depth
+  fullName: Pandv.DataAccess.ListDataReader<T>.Depth
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).Depth
+  nameWithType: ListDataReader<T>.Depth
+  nameWithType.vb: ListDataReader(Of T).Depth
+- uid: Pandv.DataAccess.ListDataReader`1.FieldCount
+  name: FieldCount
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_FieldCount
+  commentId: P:Pandv.DataAccess.ListDataReader`1.FieldCount
+  fullName: Pandv.DataAccess.ListDataReader<T>.FieldCount
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).FieldCount
+  nameWithType: ListDataReader<T>.FieldCount
+  nameWithType.vb: ListDataReader(Of T).FieldCount
+- uid: Pandv.DataAccess.ListDataReader`1.FieldCount*
+  name: FieldCount
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_FieldCount_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.FieldCount
+  fullName: Pandv.DataAccess.ListDataReader<T>.FieldCount
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).FieldCount
+  nameWithType: ListDataReader<T>.FieldCount
+  nameWithType.vb: ListDataReader(Of T).FieldCount
+- uid: Pandv.DataAccess.ListDataReader`1.GetBoolean(System.Int32)
+  name: GetBoolean(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetBoolean_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetBoolean(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetBoolean(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetBoolean(System.Int32)
+  nameWithType: ListDataReader<T>.GetBoolean(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetBoolean(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetBoolean*
+  name: GetBoolean
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetBoolean_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetBoolean
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetBoolean
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetBoolean
+  nameWithType: ListDataReader<T>.GetBoolean
+  nameWithType.vb: ListDataReader(Of T).GetBoolean
+- uid: Pandv.DataAccess.ListDataReader`1.GetByte(System.Int32)
+  name: GetByte(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetByte_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetByte(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetByte(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetByte(System.Int32)
+  nameWithType: ListDataReader<T>.GetByte(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetByte(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetByte*
+  name: GetByte
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetByte_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetByte
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetByte
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetByte
+  nameWithType: ListDataReader<T>.GetByte
+  nameWithType.vb: ListDataReader(Of T).GetByte
+- uid: Pandv.DataAccess.ListDataReader`1.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
+  name: GetBytes(Int32, Int64, Byte[], Int32, Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetBytes_System_Int32_System_Int64_System_Byte___System_Int32_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
+  name.vb: GetBytes(Int32, Int64, Byte(), Int32, Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetBytes(System.Int32, System.Int64, System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetBytes(System.Int32, System.Int64, System.Byte(), System.Int32, System.Int32)
+  nameWithType: ListDataReader<T>.GetBytes(Int32, Int64, Byte[], Int32, Int32)
+  nameWithType.vb: ListDataReader(Of T).GetBytes(Int32, Int64, Byte(), Int32, Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetBytes*
+  name: GetBytes
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetBytes_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetBytes
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetBytes
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetBytes
+  nameWithType: ListDataReader<T>.GetBytes
+  nameWithType.vb: ListDataReader(Of T).GetBytes
+- uid: Pandv.DataAccess.ListDataReader`1.GetChar(System.Int32)
+  name: GetChar(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetChar_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetChar(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetChar(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetChar(System.Int32)
+  nameWithType: ListDataReader<T>.GetChar(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetChar(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetChar*
+  name: GetChar
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetChar_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetChar
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetChar
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetChar
+  nameWithType: ListDataReader<T>.GetChar
+  nameWithType.vb: ListDataReader(Of T).GetChar
+- uid: Pandv.DataAccess.ListDataReader`1.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
+  name: GetChars(Int32, Int64, Char[], Int32, Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetChars_System_Int32_System_Int64_System_Char___System_Int32_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
+  name.vb: GetChars(Int32, Int64, Char(), Int32, Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetChars(System.Int32, System.Int64, System.Char[], System.Int32, System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetChars(System.Int32, System.Int64, System.Char(), System.Int32, System.Int32)
+  nameWithType: ListDataReader<T>.GetChars(Int32, Int64, Char[], Int32, Int32)
+  nameWithType.vb: ListDataReader(Of T).GetChars(Int32, Int64, Char(), Int32, Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetChars*
+  name: GetChars
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetChars_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetChars
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetChars
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetChars
+  nameWithType: ListDataReader<T>.GetChars
+  nameWithType.vb: ListDataReader(Of T).GetChars
+- uid: Pandv.DataAccess.ListDataReader`1.GetDataTypeName(System.Int32)
+  name: GetDataTypeName(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetDataTypeName_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetDataTypeName(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetDataTypeName(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetDataTypeName(System.Int32)
+  nameWithType: ListDataReader<T>.GetDataTypeName(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetDataTypeName(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetDataTypeName*
+  name: GetDataTypeName
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetDataTypeName_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetDataTypeName
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetDataTypeName
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetDataTypeName
+  nameWithType: ListDataReader<T>.GetDataTypeName
+  nameWithType.vb: ListDataReader(Of T).GetDataTypeName
+- uid: Pandv.DataAccess.ListDataReader`1.GetDateTime(System.Int32)
+  name: GetDateTime(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetDateTime_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetDateTime(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetDateTime(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetDateTime(System.Int32)
+  nameWithType: ListDataReader<T>.GetDateTime(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetDateTime(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetDateTime*
+  name: GetDateTime
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetDateTime_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetDateTime
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetDateTime
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetDateTime
+  nameWithType: ListDataReader<T>.GetDateTime
+  nameWithType.vb: ListDataReader(Of T).GetDateTime
+- uid: Pandv.DataAccess.ListDataReader`1.GetDecimal(System.Int32)
+  name: GetDecimal(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetDecimal_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetDecimal(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetDecimal(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetDecimal(System.Int32)
+  nameWithType: ListDataReader<T>.GetDecimal(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetDecimal(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetDecimal*
+  name: GetDecimal
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetDecimal_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetDecimal
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetDecimal
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetDecimal
+  nameWithType: ListDataReader<T>.GetDecimal
+  nameWithType.vb: ListDataReader(Of T).GetDecimal
+- uid: Pandv.DataAccess.ListDataReader`1.GetDouble(System.Int32)
+  name: GetDouble(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetDouble_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetDouble(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetDouble(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetDouble(System.Int32)
+  nameWithType: ListDataReader<T>.GetDouble(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetDouble(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetDouble*
+  name: GetDouble
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetDouble_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetDouble
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetDouble
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetDouble
+  nameWithType: ListDataReader<T>.GetDouble
+  nameWithType.vb: ListDataReader(Of T).GetDouble
+- uid: Pandv.DataAccess.ListDataReader`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetEnumerator
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetEnumerator
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetEnumerator()
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetEnumerator()
+  nameWithType: ListDataReader<T>.GetEnumerator()
+  nameWithType.vb: ListDataReader(Of T).GetEnumerator()
+- uid: Pandv.DataAccess.ListDataReader`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetEnumerator_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetEnumerator
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetEnumerator
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetEnumerator
+  nameWithType: ListDataReader<T>.GetEnumerator
+  nameWithType.vb: ListDataReader(Of T).GetEnumerator
+- uid: Pandv.DataAccess.ListDataReader`1.GetFieldType(System.Int32)
+  name: GetFieldType(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetFieldType_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetFieldType(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetFieldType(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetFieldType(System.Int32)
+  nameWithType: ListDataReader<T>.GetFieldType(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetFieldType(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetFieldType*
+  name: GetFieldType
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetFieldType_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetFieldType
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetFieldType
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetFieldType
+  nameWithType: ListDataReader<T>.GetFieldType
+  nameWithType.vb: ListDataReader(Of T).GetFieldType
+- uid: Pandv.DataAccess.ListDataReader`1.GetFloat(System.Int32)
+  name: GetFloat(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetFloat_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetFloat(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetFloat(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetFloat(System.Int32)
+  nameWithType: ListDataReader<T>.GetFloat(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetFloat(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetFloat*
+  name: GetFloat
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetFloat_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetFloat
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetFloat
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetFloat
+  nameWithType: ListDataReader<T>.GetFloat
+  nameWithType.vb: ListDataReader(Of T).GetFloat
+- uid: Pandv.DataAccess.ListDataReader`1.GetGuid(System.Int32)
+  name: GetGuid(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetGuid_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetGuid(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetGuid(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetGuid(System.Int32)
+  nameWithType: ListDataReader<T>.GetGuid(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetGuid(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetGuid*
+  name: GetGuid
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetGuid_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetGuid
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetGuid
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetGuid
+  nameWithType: ListDataReader<T>.GetGuid
+  nameWithType.vb: ListDataReader(Of T).GetGuid
+- uid: Pandv.DataAccess.ListDataReader`1.GetInt16(System.Int32)
+  name: GetInt16(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetInt16_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetInt16(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetInt16(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetInt16(System.Int32)
+  nameWithType: ListDataReader<T>.GetInt16(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetInt16(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetInt16*
+  name: GetInt16
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetInt16_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetInt16
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetInt16
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetInt16
+  nameWithType: ListDataReader<T>.GetInt16
+  nameWithType.vb: ListDataReader(Of T).GetInt16
+- uid: Pandv.DataAccess.ListDataReader`1.GetInt32(System.Int32)
+  name: GetInt32(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetInt32_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetInt32(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetInt32(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetInt32(System.Int32)
+  nameWithType: ListDataReader<T>.GetInt32(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetInt32(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetInt32*
+  name: GetInt32
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetInt32_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetInt32
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetInt32
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetInt32
+  nameWithType: ListDataReader<T>.GetInt32
+  nameWithType.vb: ListDataReader(Of T).GetInt32
+- uid: Pandv.DataAccess.ListDataReader`1.GetInt64(System.Int32)
+  name: GetInt64(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetInt64_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetInt64(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetInt64(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetInt64(System.Int32)
+  nameWithType: ListDataReader<T>.GetInt64(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetInt64(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetInt64*
+  name: GetInt64
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetInt64_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetInt64
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetInt64
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetInt64
+  nameWithType: ListDataReader<T>.GetInt64
+  nameWithType.vb: ListDataReader(Of T).GetInt64
+- uid: Pandv.DataAccess.ListDataReader`1.GetName(System.Int32)
+  name: GetName(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetName_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetName(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetName(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetName(System.Int32)
+  nameWithType: ListDataReader<T>.GetName(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetName(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetName*
+  name: GetName
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetName_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetName
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetName
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetName
+  nameWithType: ListDataReader<T>.GetName
+  nameWithType.vb: ListDataReader(Of T).GetName
+- uid: Pandv.DataAccess.ListDataReader`1.GetOrdinal(System.String)
+  name: GetOrdinal(String)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetOrdinal_System_String_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetOrdinal(System.String)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetOrdinal(System.String)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetOrdinal(System.String)
+  nameWithType: ListDataReader<T>.GetOrdinal(String)
+  nameWithType.vb: ListDataReader(Of T).GetOrdinal(String)
+- uid: Pandv.DataAccess.ListDataReader`1.GetOrdinal*
+  name: GetOrdinal
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetOrdinal_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetOrdinal
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetOrdinal
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetOrdinal
+  nameWithType: ListDataReader<T>.GetOrdinal
+  nameWithType.vb: ListDataReader(Of T).GetOrdinal
+- uid: Pandv.DataAccess.ListDataReader`1.GetString(System.Int32)
+  name: GetString(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetString_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetString(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetString(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetString(System.Int32)
+  nameWithType: ListDataReader<T>.GetString(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetString(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetString*
+  name: GetString
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetString_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetString
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetString
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetString
+  nameWithType: ListDataReader<T>.GetString
+  nameWithType.vb: ListDataReader(Of T).GetString
+- uid: Pandv.DataAccess.ListDataReader`1.GetValue(System.Int32)
+  name: GetValue(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetValue_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetValue(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetValue(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetValue(System.Int32)
+  nameWithType: ListDataReader<T>.GetValue(Int32)
+  nameWithType.vb: ListDataReader(Of T).GetValue(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.GetValue*
+  name: GetValue
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetValue_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetValue
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetValue
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetValue
+  nameWithType: ListDataReader<T>.GetValue
+  nameWithType.vb: ListDataReader(Of T).GetValue
+- uid: Pandv.DataAccess.ListDataReader`1.GetValues(System.Object[])
+  name: GetValues(Object[])
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetValues_System_Object___
+  commentId: M:Pandv.DataAccess.ListDataReader`1.GetValues(System.Object[])
+  name.vb: GetValues(Object())
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetValues(System.Object[])
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetValues(System.Object())
+  nameWithType: ListDataReader<T>.GetValues(Object[])
+  nameWithType.vb: ListDataReader(Of T).GetValues(Object())
+- uid: Pandv.DataAccess.ListDataReader`1.GetValues*
+  name: GetValues
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_GetValues_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.GetValues
+  fullName: Pandv.DataAccess.ListDataReader<T>.GetValues
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).GetValues
+  nameWithType: ListDataReader<T>.GetValues
+  nameWithType.vb: ListDataReader(Of T).GetValues
+- uid: Pandv.DataAccess.ListDataReader`1.HasRows
+  name: HasRows
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_HasRows
+  commentId: P:Pandv.DataAccess.ListDataReader`1.HasRows
+  fullName: Pandv.DataAccess.ListDataReader<T>.HasRows
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).HasRows
+  nameWithType: ListDataReader<T>.HasRows
+  nameWithType.vb: ListDataReader(Of T).HasRows
+- uid: Pandv.DataAccess.ListDataReader`1.HasRows*
+  name: HasRows
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_HasRows_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.HasRows
+  fullName: Pandv.DataAccess.ListDataReader<T>.HasRows
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).HasRows
+  nameWithType: ListDataReader<T>.HasRows
+  nameWithType.vb: ListDataReader(Of T).HasRows
+- uid: Pandv.DataAccess.ListDataReader`1.IsClosed
+  name: IsClosed
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_IsClosed
+  commentId: P:Pandv.DataAccess.ListDataReader`1.IsClosed
+  fullName: Pandv.DataAccess.ListDataReader<T>.IsClosed
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).IsClosed
+  nameWithType: ListDataReader<T>.IsClosed
+  nameWithType.vb: ListDataReader(Of T).IsClosed
+- uid: Pandv.DataAccess.ListDataReader`1.IsClosed*
+  name: IsClosed
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_IsClosed_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.IsClosed
+  fullName: Pandv.DataAccess.ListDataReader<T>.IsClosed
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).IsClosed
+  nameWithType: ListDataReader<T>.IsClosed
+  nameWithType.vb: ListDataReader(Of T).IsClosed
+- uid: Pandv.DataAccess.ListDataReader`1.IsDBNull(System.Int32)
+  name: IsDBNull(Int32)
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_IsDBNull_System_Int32_
+  commentId: M:Pandv.DataAccess.ListDataReader`1.IsDBNull(System.Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.IsDBNull(System.Int32)
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).IsDBNull(System.Int32)
+  nameWithType: ListDataReader<T>.IsDBNull(Int32)
+  nameWithType.vb: ListDataReader(Of T).IsDBNull(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.IsDBNull*
+  name: IsDBNull
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_IsDBNull_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.IsDBNull
+  fullName: Pandv.DataAccess.ListDataReader<T>.IsDBNull
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).IsDBNull
+  nameWithType: ListDataReader<T>.IsDBNull
+  nameWithType.vb: ListDataReader(Of T).IsDBNull
+- uid: Pandv.DataAccess.ListDataReader`1.Item(System.Int32)
+  name: Item[Int32]
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_Item_System_Int32_
+  commentId: P:Pandv.DataAccess.ListDataReader`1.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: Pandv.DataAccess.ListDataReader<T>.Item[System.Int32]
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).Item(System.Int32)
+  nameWithType: ListDataReader<T>.Item[Int32]
+  nameWithType.vb: ListDataReader(Of T).Item(Int32)
+- uid: Pandv.DataAccess.ListDataReader`1.Item(System.String)
+  name: Item[String]
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_Item_System_String_
+  commentId: P:Pandv.DataAccess.ListDataReader`1.Item(System.String)
+  name.vb: Item(String)
+  fullName: Pandv.DataAccess.ListDataReader<T>.Item[System.String]
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).Item(System.String)
+  nameWithType: ListDataReader<T>.Item[String]
+  nameWithType.vb: ListDataReader(Of T).Item(String)
+- uid: Pandv.DataAccess.ListDataReader`1.Item*
+  name: Item
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_Item_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.Item
+  fullName: Pandv.DataAccess.ListDataReader<T>.Item
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).Item
+  nameWithType: ListDataReader<T>.Item
+  nameWithType.vb: ListDataReader(Of T).Item
+- uid: Pandv.DataAccess.ListDataReader`1.NextResult
+  name: NextResult()
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_NextResult
+  commentId: M:Pandv.DataAccess.ListDataReader`1.NextResult
+  fullName: Pandv.DataAccess.ListDataReader<T>.NextResult()
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).NextResult()
+  nameWithType: ListDataReader<T>.NextResult()
+  nameWithType.vb: ListDataReader(Of T).NextResult()
+- uid: Pandv.DataAccess.ListDataReader`1.NextResult*
+  name: NextResult
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_NextResult_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.NextResult
+  fullName: Pandv.DataAccess.ListDataReader<T>.NextResult
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).NextResult
+  nameWithType: ListDataReader<T>.NextResult
+  nameWithType.vb: ListDataReader(Of T).NextResult
+- uid: Pandv.DataAccess.ListDataReader`1.Read
+  name: Read()
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_Read
+  commentId: M:Pandv.DataAccess.ListDataReader`1.Read
+  fullName: Pandv.DataAccess.ListDataReader<T>.Read()
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).Read()
+  nameWithType: ListDataReader<T>.Read()
+  nameWithType.vb: ListDataReader(Of T).Read()
+- uid: Pandv.DataAccess.ListDataReader`1.Read*
+  name: Read
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_Read_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.Read
+  fullName: Pandv.DataAccess.ListDataReader<T>.Read
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).Read
+  nameWithType: ListDataReader<T>.Read
+  nameWithType.vb: ListDataReader(Of T).Read
+- uid: Pandv.DataAccess.ListDataReader`1.RecordsAffected
+  name: RecordsAffected
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_RecordsAffected
+  commentId: P:Pandv.DataAccess.ListDataReader`1.RecordsAffected
+  fullName: Pandv.DataAccess.ListDataReader<T>.RecordsAffected
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).RecordsAffected
+  nameWithType: ListDataReader<T>.RecordsAffected
+  nameWithType.vb: ListDataReader(Of T).RecordsAffected
+- uid: Pandv.DataAccess.ListDataReader`1.RecordsAffected*
+  name: RecordsAffected
+  href: api/Pandv.DataAccess.ListDataReader-1.html#Pandv_DataAccess_ListDataReader_1_RecordsAffected_
+  commentId: Overload:Pandv.DataAccess.ListDataReader`1.RecordsAffected
+  fullName: Pandv.DataAccess.ListDataReader<T>.RecordsAffected
+  fullName.vb: Pandv.DataAccess.ListDataReader(Of T).RecordsAffected
+  nameWithType: ListDataReader<T>.RecordsAffected
+  nameWithType.vb: ListDataReader(Of T).RecordsAffected

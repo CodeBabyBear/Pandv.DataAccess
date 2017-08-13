@@ -1,41 +1,109 @@
-# ETCD V3 Client
-base code all Generate by grpc tools.
-## Quick start
+# Pandv.DataAccess
 
-### Install package
+Author: Victor.X.Qu
 
-* Package Manager
+Email: fs7744@hotmail.com
 
+Pandv.DataAccess is just config sql in xml files, base on dapper
+
+DataAccess is for net core 
+
+## db supports
+DataAccess base on ado.net, so you can use blow db :
+
+* [Pandv.DataAccess](https://www.nuget.org/packages/Pandv.DataAccess)
+
+### use MSSql example 
+
+#### Use config file
+
+##### dependencies
+
+``` xml
+    <PackageReference Include="Pandv.DataAccess" Version="0.0.1" />
 ```
-Install-Package etcd.v3 -Version 0.0.1.3
-```
-* .NET CLI
 
-```
-dotnet add package etcd.v3 --version 0.0.1.3
+You can config sql in xml file for DataAcces, like:
+
+``` xml
+<?xml version="1.0" encoding="utf-8"?>
+<DbConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConnectionStrings>
+    <DataConnection Name="Test" ConnectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TestDataAccess;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" />
+  </ConnectionStrings>
+  <SqlConfigs>
+    <DbSql CommandName="SelectByName" Type="Text" ConnectionName="Test">
+      <Text>
+        <![CDATA[
+SELECT top 1
+    Id
+    ,Age
+    ,Name
+    ,JoinDate
+    ,[Money]
+FROM [dbo].[Students] WITH(NOLOCK)
+WHERE @Name = Name
+      ]]>
+      </Text>
+    </DbSql>
+    <DbSql CommandName="SelectAll" Type="Text" ConnectionName="Test">
+      <Text>
+        <![CDATA[
+SELECT
+    Id
+    ,Age
+    ,Name
+    ,JoinDate
+    ,[Money]
+FROM [dbo].[Students] WITH(NOLOCK)
+      ]]>
+      </Text>
+    </DbSql>
+    <DbSql CommandName="SelectAllAge" Type="Text" ConnectionName="Test">
+      <Text>
+        <![CDATA[
+SELECT
+    sum(Age) as Age
+FROM [dbo].[Students] WITH(NOLOCK)
+      ]]>
+      </Text>
+    </DbSql>
+    <DbSql CommandName="Clear" Type="Text" ConnectionName="Test">
+      <Text>
+        <![CDATA[
+delete from [dbo].[Students]
+      ]]>
+      </Text>
+    </DbSql>
+    <DbSql CommandName="BulkCopy" Type="Text" ConnectionName="Test">
+      <Text>
+        <![CDATA[
+[dbo].[Students]
+      ]]>
+      </Text>
+    </DbSql>
+  </SqlConfigs>
+</DbConfig>
 ```
 
-### Simple use example
+Code for use :
 
 ``` csharp
-var client = new Client("127.0.0.1:2379");
-//client.NewAuthToken("root", "123"); // if etcd has auth enable, please use user and pwd to get auth
-client.Put("key", "value");  // put key/vale to etcd
+var provider = new ServiceCollection()
+                     .UseSqlServer()
+                     .UseDataAccessConfig(Directory.GetCurrentDirectory(), false, null, "db.xml")
+                     .BuildServiceProvider();
 
-// get value 
-var res = client.Range("key");
-Assert.Equal(1, res.Count);
-Assert.Equal(1, res.Kvs.Count);
-Assert.Equal("value", res.Kvs[0].Value.ToStringUtf8());
-Assert.False(res.More);
+List<Student> students = GenerateStudents(count);
+
+var db = provider.GetService<IDbProvider>();        
+
+db.ExecuteBulkCopy("BulkCopy",students);
+
+var student = db.QueryFirstOrDefault<Student>("SelectByName", new { Name = new DbString() { Value = "3", IsAnsi = true } });
+Assert.Equal(3, student.Age);
+
+var students = db.Query<Student>("SelectAll").ToList();
+Assert.Equal(500, students.Count);
+
 ```
-
-### api doc
-
-Main api doc please see 
-
-[https://fs7744.github.io/etcdcsharp/api/ETCD.V3.html](https://fs7744.github.io/etcdcsharp/api/ETCD.V3.html)
-
-All api doc ( include code generate by grpc tool ) please see 
-
-[https://fs7744.github.io/etcdcsharp/api/index.html](https://fs7744.github.io/etcdcsharp/api/index.html)

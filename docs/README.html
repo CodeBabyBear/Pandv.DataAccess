@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Pandv.DataAccess </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Pandv.DataAccess ">
+    <meta name="generator" content="docfx 2.22.2.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                <ul class="nav level1 navbar-nav">
+                  <li class="">
+                    <a href="articles/intro.html" title="Articles" class="">Articles</a>
+                  </li>
+                  <li class="">
+                    <a href="api/index.html" title="Api Documentation" class="">Api Documentation</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="pandvdataaccess">Pandv.DataAccess</h1>
+
+<p>Author: Victor.X.Qu</p>
+<p>Email: fs7744@hotmail.com</p>
+<p>Pandv.DataAccess is just config sql in xml files, base on dapper</p>
+<p>DataAccess is for net core </p>
+<h2 id="db-supports">db supports</h2>
+<p>DataAccess base on ado.net, so you can use blow db :</p>
+<ul>
+<li><a href="https://www.nuget.org/packages/Pandv.DataAccess">Pandv.DataAccess</a></li>
+</ul>
+<h3 id="use-mssql-example">use MSSql example</h3>
+<h4 id="use-config-file">Use config file</h4>
+<h5 id="dependencies">dependencies</h5>
+<pre><code class="lang-xml">    &lt;PackageReference Include=&quot;Pandv.DataAccess&quot; Version=&quot;0.0.1&quot; /&gt;
+</code></pre><p>You can config sql in xml file for DataAcces, like:</p>
+<pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;DbConfig xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;ConnectionStrings&gt;
+    &lt;DataConnection Name=&quot;Test&quot; ConnectionString=&quot;Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TestDataAccess;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False&quot; /&gt;
+  &lt;/ConnectionStrings&gt;
+  &lt;SqlConfigs&gt;
+    &lt;DbSql CommandName=&quot;SelectByName&quot; Type=&quot;Text&quot; ConnectionName=&quot;Test&quot;&gt;
+      &lt;Text&gt;
+        &lt;![CDATA[
+SELECT top 1
+    Id
+    ,Age
+    ,Name
+    ,JoinDate
+    ,[Money]
+FROM [dbo].[Students] WITH(NOLOCK)
+WHERE @Name = Name
+      ]]&gt;
+      &lt;/Text&gt;
+    &lt;/DbSql&gt;
+    &lt;DbSql CommandName=&quot;SelectAll&quot; Type=&quot;Text&quot; ConnectionName=&quot;Test&quot;&gt;
+      &lt;Text&gt;
+        &lt;![CDATA[
+SELECT
+    Id
+    ,Age
+    ,Name
+    ,JoinDate
+    ,[Money]
+FROM [dbo].[Students] WITH(NOLOCK)
+      ]]&gt;
+      &lt;/Text&gt;
+    &lt;/DbSql&gt;
+    &lt;DbSql CommandName=&quot;SelectAllAge&quot; Type=&quot;Text&quot; ConnectionName=&quot;Test&quot;&gt;
+      &lt;Text&gt;
+        &lt;![CDATA[
+SELECT
+    sum(Age) as Age
+FROM [dbo].[Students] WITH(NOLOCK)
+      ]]&gt;
+      &lt;/Text&gt;
+    &lt;/DbSql&gt;
+    &lt;DbSql CommandName=&quot;Clear&quot; Type=&quot;Text&quot; ConnectionName=&quot;Test&quot;&gt;
+      &lt;Text&gt;
+        &lt;![CDATA[
+delete from [dbo].[Students]
+      ]]&gt;
+      &lt;/Text&gt;
+    &lt;/DbSql&gt;
+    &lt;DbSql CommandName=&quot;BulkCopy&quot; Type=&quot;Text&quot; ConnectionName=&quot;Test&quot;&gt;
+      &lt;Text&gt;
+        &lt;![CDATA[
+[dbo].[Students]
+      ]]&gt;
+      &lt;/Text&gt;
+    &lt;/DbSql&gt;
+  &lt;/SqlConfigs&gt;
+&lt;/DbConfig&gt;
+</code></pre><p>Code for use :</p>
+<pre><code class="lang-csharp">var provider = new ServiceCollection()
+                     .UseSqlServer()
+                     .UseDataAccessConfig(Directory.GetCurrentDirectory(), false, null, &quot;db.xml&quot;)
+                     .BuildServiceProvider();
+
+List&lt;Student&gt; students = GenerateStudents(count);
+
+var db = provider.GetService&lt;IDbProvider&gt;();        
+
+db.ExecuteBulkCopy(&quot;BulkCopy&quot;,students);
+
+var student = db.QueryFirstOrDefault&lt;Student&gt;(&quot;SelectByName&quot;, new { Name = new DbString() { Value = &quot;3&quot;, IsAnsi = true } });
+Assert.Equal(3, student.Age);
+
+var students = db.Query&lt;Student&gt;(&quot;SelectAll&quot;).ToList();
+Assert.Equal(500, students.Count);
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
